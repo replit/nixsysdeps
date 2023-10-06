@@ -1,0 +1,6 @@
+{
+  "pycairo": {"deps": [ "pkgs.pkg-config", "pkgs.cairo" ]},
+  "moviepy": {"deps": [ "pkgs.ffmpeg", "pkgs.imagemagickBig" ]},
+  "psycopg2": {"deps": [ "pkgs.postgresql" ], "libdeps": ["pkgs.postgresql"]},
+  "pyzbar": {"libdeps": ["pkgs.zbar"]}
+}
