@@ -1,1 +1,1 @@
-cat *.json | nix run nixpkgs#jq
+cat map/*.json | nix run nixpkgs#jq
